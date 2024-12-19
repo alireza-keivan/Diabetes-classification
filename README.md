@@ -84,7 +84,7 @@ print(df_copy.isnull().sum())
 
 import missingno as msno
 p = msno.bar(df_copy)
-![image](https://github.com/user-attachments/assets/c654adb8-8b9f-4298-95ce-9faf15d8a897)
+[image](https://github.com/user-attachments/assets/c654adb8-8b9f-4298-95ce-9faf15d8a897)
 
 df_copy['Glucose'].fillna(df_copy['Glucose'].mean(), inplace=True)
 df_copy['BloodPressure'].fillna(df_copy['BloodPressure'].mean(), inplace=True)

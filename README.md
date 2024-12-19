@@ -1,5 +1,4 @@
-# Diabetes-classification
-Certainly! Here's the GitHub README in the specified format:
+
 
 ---
 

@@ -115,7 +115,7 @@ plt.show()
 plt.figure(figsize=(12,10))
 p = sns.heatmap(df_copy.corr(), annot=True, cmap='RdYlGn')
 ```
-
+![image](https://github.com/alireza-keivan/Diabetes-classification/blob/alireza-keivan/src/confusion.png)
 ---
 
 ## Data Preprocessing
@@ -211,7 +211,7 @@ plt.ylabel('Actual label')
 plt.xlabel('Predicted label')
 plt.show()
 ```
-
+![image](https://github.com/alireza-keivan/Diabetes-classification/blob/alireza-keivan/src/conf%202.png)
 ---
 
 ## Conclusion

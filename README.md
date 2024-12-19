@@ -4,7 +4,7 @@
 
 # Diabetes Classification Using K-Nearest Neighbors (KNN)
 
-This repository contains one of my first codes for classification using **K-Nearest Neighbors (KNN)** on the **Pima Indians Diabetes** dataset. The project covers data cleaning, visualization, model training, and evaluation. Comments are added using **Gemini**.
+This repository contains one of my first codes for classification using **K-Nearest Neighbors (KNN)** on the **Pima Indians Diabetes** dataset. The project covers data cleaning, visualization, model training, and evaluation. 
 
 ## Table of Contents
 1. [Description](#description)

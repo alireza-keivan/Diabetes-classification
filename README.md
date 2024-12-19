@@ -84,14 +84,20 @@ print(df_copy.isnull().sum())
 
 import missingno as msno
 p = msno.bar(df_copy)
+```
+![image](https://github.com/alireza-keivan/Diabetes-classification/blob/alireza-keivan/src/missingns.png)
+```python
+p = df[['Glucose','BloodPressure','SkinThickness','Insulin','BMI']].hist(figsize=(20,20))
+```
+![image](https://github.com/alireza-keivan/Diabetes-classification/blob/alireza-keivan/src/pandas%20df.png)
 
+```python
 df_copy['Glucose'].fillna(df_copy['Glucose'].mean(), inplace=True)
 df_copy['BloodPressure'].fillna(df_copy['BloodPressure'].mean(), inplace=True)
 df_copy['Insulin'].fillna(df_copy['Insulin'].mean(), inplace=True)
 df_copy['SkinThickness'].fillna(df_copy['SkinThickness'].mean(), inplace=True)
 df_copy['BMI'].fillna(df_copy['BMI'].mean(), inplace=True)
 ```
-![image](https://github.com/user-attachments/assets/c654adb8-8b9f-4298-95ce-9faf15d8a897)
 
 ---
 
@@ -111,12 +117,19 @@ sns.countplot(y=df.dtypes, data=df)
 plt.xlabel('count of each data type')
 plt.ylabel('data types')
 plt.show()
+```
+![image](https://github.com/alireza-keivan/Diabetes-classification/blob/alireza-keivan/src/sns.png)
+```python
+from pandas.plotting import scatter_matrix
+p = scatter_matrix(df, figsize=(25,25))
+```
+![image](https://github.com/alireza-keivan/Diabetes-classification/blob/alireza-keivan/src/full.png)
 
-plt.figure(figsize=(12,10))
+```
+pythonplt.figure(figsize=(12,10))
 p = sns.heatmap(df_copy.corr(), annot=True, cmap='RdYlGn')
 ```
 ![image](https://github.com/alireza-keivan/Diabetes-classification/blob/alireza-keivan/src/confusion.png)
----
 
 ## Data Preprocessing
 #### `Feature scaling using StandardScaler`

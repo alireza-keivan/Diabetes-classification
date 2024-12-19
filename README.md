@@ -180,7 +180,7 @@ plt.figure(figsize=(12,10))
 p = sns.lineplot(range(1, 16), train_scores, markers='*', label='Train score')
 p = sns.lineplot(range(1, 16), test_scores, markers='o', label='Test score')
 ```
-
+![image](https://github.com/alireza-keivan/Diabetes-classification/blob/alireza-keivan/src/accuracy.png)
 ---
 
 ## Confusion Matrix
